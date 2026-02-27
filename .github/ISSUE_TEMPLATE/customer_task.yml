@@ -1,19 +1,15 @@
-name: 📋 Engineering Task
-description: Internal engineering execution task
-title: "[Task]: "
+name: 🎯 Customer Task
+description: Internal pre-sales/customer execution task
+title: "[Customer Task]: "
 labels: ["Type/Task"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template for engineering execution tasks such as:
-        - Research work and proposals
-        - Implementation work
-        - Test cases / Testing
-        - Refactoring
-        - Documentation updates
-        - CI/CD updates
-        - Dependency upgrades
+        Use this template for pre-sales/customer internal execution tasks such as:
+        - Demos
+        - PoCs
+        - DevServices
 
   - type: dropdown
     id: task_category

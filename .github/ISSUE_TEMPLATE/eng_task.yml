@@ -1,0 +1,49 @@
+name: 📋 Engineering Task
+description: Internal engineering execution task
+title: "[Eng Task]: "
+labels: ["Type/Task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for engineering execution tasks such as:
+        - Research work and proposals
+        - Implementation work
+        - Test cases / Testing
+        - Refactoring
+        - Documentation updates
+        - CI/CD updates
+        - Dependency upgrades
+
+  - type: dropdown
+    id: task_category
+    attributes:
+      label: Task Category
+      description: Select the category that best describes this task.
+      options:
+        - Research / Proposal
+        - Implementation
+        - Testing
+        - Refactoring
+        - Documentation
+        - CI/CD Update
+        - Dependency Upgrade
+    validations:
+      required: true
+
+  - type: input
+    id: parent_issue
+    attributes:
+      label: Parent Issue (Feature / Improvement / Bug)
+      description: Provide the parent issue number or URL. If not applicable, enter "N/A".
+      placeholder: Issue Link
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Description
+      description: Provide background information and reasoning for this task.
+    validations:
+      required: true
