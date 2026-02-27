@@ -1,5 +1,5 @@
 name: 🎯 Customer Task
-description: Internal pre-sales/customer execution task
+description: Internal pre-sales/customer execution tasks such as demos, PoCs, and DevServices
 title: "[Customer Task]: "
 labels: ["Type/Task"]
 body:
