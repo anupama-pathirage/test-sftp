@@ -1,13 +1,21 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 🐞 Bug
+    url: https://github.com/wso2/product-integrator/issues/new
+    about: Submit Bugs through the Product public repository.
+  
+  - name: 🚀 Existing Customer Issue
+    url: https://github.com/wso2-enterprise/wso2-integration-internal/issues/new
+    about: Submit customer issues through the customer internal repository.
+
   - name: 🚀 Feature Request
-    url: https://github.com/ballerina-platform/ballerina-lang/issues/new
+    url: https://github.com/wso2-enterprise/integration-product-management/issues/new
     about: Submit new features through the Product Management repository.
 
-  - name: 🛠 Improvement / Enhancement
-    url: https://github.com/ballerina-platform/ballerina-library/issues/new
-    about: Submit product or engineering improvements in the designated repository.
+  - name: 🛠 Improvement
+    url: https://github.com/wso2-enterprise/integration-product-management/issues/new
+    about: Submit improvements through the Product Management repository.
 
   - name: ❓ Questions / Discussions
-    url: https://github.com/ballerina-platform/ballerina-distribution/issues/new
-    about: Please use discussions for general questions.
+    url: https://discord.com/invite/wso2
+    about: Please use Discord for general questions.
