@@ -41,6 +41,9 @@ jobs:
             const taskCategory = extractFieldValue("Task Category");
             const teamValue = extractFieldValue("Team");
 
+            core.info("Values=========");
+            core.info(`Task Category: ${taskCategory}`);
+
             const taskMapping = {
               "Research / Proposal": "Task/Research",
               "Implementation": "Task/Implementation",
