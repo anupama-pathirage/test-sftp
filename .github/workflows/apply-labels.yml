@@ -23,12 +23,6 @@ jobs:
             const issue_number = issue.number;
 
             const labels = (issue.labels || []).map(l => (typeof l === "string" ? l : l.name));
-            const hasTypeTask = labels.includes("Type/Task");
-
-            if (!hasTypeTask) {
-              core.info("Not a Type/Task issue. Skipping.");
-              return;
-            }
 
             const body = issue.body || "";
 
