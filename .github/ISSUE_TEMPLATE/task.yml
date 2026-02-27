@@ -9,7 +9,7 @@ body:
         Use this template for engineering execution tasks such as:
         - Research work and proposals
         - Implementation work
-        - Test case additions / coverage increase
+        - Test cases / Testing
         - Refactoring
         - Documentation updates
         - CI/CD updates
@@ -23,7 +23,7 @@ body:
       options:
         - Research / Proposal
         - Implementation
-        - Test Coverage
+        - Testing
         - Refactoring
         - Documentation
         - CI/CD Update
@@ -36,35 +36,14 @@ body:
     attributes:
       label: Parent Issue (Feature / Improvement / Bug)
       description: Provide the parent issue number or URL. If not applicable, enter "N/A".
-      placeholder: e.g., #1234 or https://github.com/org/repo/issues/1234 or N/A
+      placeholder: Issue Link
     validations:
       required: true
 
   - type: textarea
     id: context
     attributes:
-      label: Context
+      label: Description
       description: Provide background information and reasoning for this task.
-    validations:
-      required: true
-
-  - type: textarea
-    id: scope
-    attributes:
-      label: Scope of Work
-      description: Clearly define what is included and excluded.
-    validations:
-      required: true
-
-  - type: textarea
-    id: acceptance
-    attributes:
-      label: Acceptance Criteria
-      description: Define how we know this task is complete.
-      placeholder: |
-        - [ ] Implementation complete
-        - [ ] Tests added
-        - [ ] Documentation updated
-        - [ ] CI passing
     validations:
       required: true
