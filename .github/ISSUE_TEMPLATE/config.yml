@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💡 Feature Request Repository
-    url: https://github.com/anupama-pathirage/test-service/issues/new
+    url: https://github.com/wso2-enterprise/integration-product-management/issues/new
     about: Please submit new features in the product management repository.
