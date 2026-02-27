@@ -32,6 +32,24 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: team_assignment
+    attributes:
+      label: Team
+      description: Select the team that is responsible for this task.
+      options:
+        - Integration
+        - AI
+        - MI
+        - ICP/Central/Observability
+        - Cloud 
+        - Integrator-Editor
+        - Ballerina
+        - Connectors
+        - SI
+    validations:
+      required: true
+
   - type: input
     id: parent_issue
     attributes:
