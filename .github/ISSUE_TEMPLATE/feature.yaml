@@ -1,0 +1,18 @@
+name: 🚀 Feature Request
+description: Submit a new feature request (redirected)
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ Feature requests are handled in a separate repository.
+
+        Please create your feature request here:
+
+        👉 https://github.com/wso2-enterprise/integration-product-management/issues/new
+
+        This helps us:
+        - Keep the engineering repository focused on bugs
+        - Route feature discussions through the proper PM process
+        - Ensure structured review and prioritization
+
+        Thank you for your contribution!
