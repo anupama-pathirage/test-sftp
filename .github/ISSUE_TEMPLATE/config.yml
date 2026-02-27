@@ -1,5 +1,13 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💡 Feature Request Repository
-    url: https://github.com/wso2-enterprise/integration-product-management/issues/new
-    about: Please submit new features in the product management repository.
+  - name: 🚀 Feature Request
+    url: https://github.com/ballerina-platform/ballerina-lang/issues/new
+    about: Submit new features through the Product Management repository.
+
+  - name: 🛠 Improvement / Enhancement
+    url: https://github.com/ballerina-platform/ballerina-library/issues/new
+    about: Submit product or engineering improvements in the designated repository.
+
+  - name: ❓ Questions / Discussions
+    url: https://github.com/ballerina-platform/ballerina-distribution/issues/new
+    about: Please use discussions for general questions.
