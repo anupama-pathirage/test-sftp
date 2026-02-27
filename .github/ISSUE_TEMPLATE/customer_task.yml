@@ -1,7 +1,7 @@
 name: 🎯 Customer Task
 description: Internal pre-sales/customer execution tasks such as demos, PoCs, and DevServices
 title: "[Customer Task]: "
-labels: ["Type/Task"]
+labels: ["Type/Cust-Task"]
 body:
   - type: markdown
     attributes:
@@ -24,6 +24,7 @@ body:
         - Documentation
         - CI/CD Update
         - Dependency Upgrade
+        - Other
     validations:
       required: true
 

@@ -1,7 +1,7 @@
 name: 📋 Engineering Task
 description: Internal engineering execution task
 title: "[Eng Task]: "
-labels: ["Type/Task"]
+labels: ["Type/Eng-Task"]
 body:
   - type: markdown
     attributes:
@@ -28,6 +28,7 @@ body:
         - Documentation
         - CI/CD Update
         - Dependency Upgrade
+        - Other
     validations:
       required: true
 
